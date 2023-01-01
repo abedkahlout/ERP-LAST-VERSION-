@@ -1,0 +1,129 @@
+/* #0E5AA6  basic color*/
+body{
+    direction: rtl;
+    overflow-x:hidden ;
+
+    
+    
+}
+*{
+    font-family: 'Tajawal', sans-serif;
+}
+.forget a{
+    color:#0E5AA6;
+
+}
+.login-l p{
+    color:#0E5AA6;
+}
+.login-r{
+    background-color: #38B7A9;
+        width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.login-img img{
+    padding: 40px;
+    width: 270px;
+    height: 270px;
+}
+.login-l{
+    width: 100%
+}
+.login-l .h1{
+    text-align: center;
+    margin-bottom: 4rem
+}
+.login-l p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: start
+}
+.login-l span{
+    width: 55%;
+    display: flex;
+    text-align: start;
+    color: #A5A5A5;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 1rem
+}
+.login-s{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+.login-s .form-group{
+    
+    border-radius: 12px;
+    text-align: start;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+}
+.login-s .form-group label{
+    margin-right: 1rem;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-size: 17px
+}
+.form-group{
+  margin-bottom: 1.5rem;
+}
+.login-s .form-group .form-control{
+    background-color: #F5F5F5;
+    border: none;
+    height: 50px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #919191
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.toggle-password {
+    float: left;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: -33px;
+    color: #0E5AA6;
+    opacity: 1 !important
+}
+input[placeholder], [placeholder], *[placeholder] { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #919191;
+}
+
+.login-l button{
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: bold
+}
+
+.h-vh{
+    height: 100vh
+}
+.btn-primary{
+    background-color: #38B7A9 !important;
+    border: none;
+}
